@@ -13,8 +13,10 @@ $stmt->execute();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AetherBox Shop</title>
+    
     <link rel="stylesheet" href="css/shopstyle.css">
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
 </head>
 <body>
     <header>
@@ -56,8 +58,11 @@ $stmt->execute();
         </div>
     </main>
     
+    <button id="scroll-to-top" title="Go to top">↑</button>
+
     <footer>
         <p>&copy; 2023 AetherBox. All rights reserved.</p>
     </footer>
+    <script src="js/shop.js" defer></script>
 </body>
 </html>
